@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "青年帮新闻",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#31C27C",
+    "list": [
+      {
+        "iconPath": "static/images/home.png",
+        "text": "首页",
+        "selectedIconPath": "static/images/home-h.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "个人",
+        "iconPath": "static/images/user.png",
+        "selectedIconPath": "static/images/user-h.png",
+        "pagePath": "pages/user/user"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
